@@ -9,7 +9,8 @@ class UploadController extends Controller
 {
     function OnFileUp(Request $request){
 
-        $result = $request->FileKey->store('images');
+        $result = $request->FileKey->store('public');
+        dd($result);
             $data = DB::table('file_uploading')->insert(['file'=>$result]);
         if ($data == true){
             return 1;

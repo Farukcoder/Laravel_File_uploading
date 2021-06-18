@@ -28,10 +28,14 @@
                 </tbody>
             </table>
 
+            <img src="{{asset('storage/AfTVLZbJmzoF8MsrfkcV2OULLFa9GacYSgst1PvP.png')}}">
+
         </div>
 
     </div>
 </div>
+
+
 
 
 <script type="text/javascript" src="{{asset('js/app.js')}}"></script>
